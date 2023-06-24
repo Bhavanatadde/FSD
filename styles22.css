@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+nav {
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tab-link {
+  margin: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tab-link.active {
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ecf2f5;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-table td {
+  padding: 15px;
+  border: 10px solid #ddd;
+}
+
+.interests-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.other-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.other-table td {
+  padding: 15px;
+  border: 10px solid #ddd;
+}
+
+.other-table .pastel-pink {
+  background-color: #ffc0cb;
+}
+
+.other-table .pastel-green {
+  background-color: #bbedb5;
+}
+
+.other-table .pastel-blue {
+  background-color: #b4d8e7;
+}
+
+.other-table .pastel-yellow {
+  background-color: #f2e394;
+}
+
+.other-table .pastel-purple {
+  background-color: #dcb4e1;
+}
+
+.navigation-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .tabs {
+    display: none;
+  }
+
+  .navigation-icon {
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .navigation-icon span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #dc79eb;
+    margin-bottom: 6px;
+  }
+}
+
