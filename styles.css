@@ -5,29 +5,29 @@ body {
 }
 
 header {
-  background-color: #303F9F;
-  color: #fff;
+  background-color:blue;
+  color: whitesmoke;
   padding: 10px;
 }
 
 .tabs {
   display: flex;
   justify-content: center;
-  background-color: #303F9F;
+  background-color:blueviolet;
   padding: 10px;
 }
 
 .tab-link {
-  color: #fff;
+  color:whitesmoke;
   text-decoration: none;
   padding: 10px 20px;
   margin-right: 10px;
-  background-color: #FF5722;
+  background-color:red;
   border-radius: 5px 5px 0 0;
 }
 
 .tab-link.active {
-  background-color: #F44336;
+  background-color:red;
 }
 
 section {
@@ -35,12 +35,12 @@ section {
 }
 
 h2 {
-  color: #E91E63;
+  color: palevioletred;
 }
 
 .interests-list {
   list-style-type: disc;
-  color: #4CAF50;
+  color:rgb(201, 26, 186);
   padding-left: 20px;
 }
 
@@ -52,19 +52,19 @@ h2 {
 
 .contact-table td {
   padding: 10px;
-  border: 1px solid #9C27B0;
+  border: 1px rgb(190, 22, 176);
 }
 
 .contact-table td:first-child {
   font-weight: bold;
-  background-color: #9C27B0;
-  color: #fff;
+  background-color:plum;
+  color:white;
 }
 
 .contact-table tr:nth-child(even) td {
-  background-color: #FFEB3B;
+  background-color:palevioletred;
 }
 
 .contact-table tr:nth-child(odd) td {
-  background-color: #FFC107;
+  background-color: plum;
 }
