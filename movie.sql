@@ -12,7 +12,7 @@ insert into movie_genres values(1,201),(2,301);
 /*query1*/
 select movies.title,directors.director_name from movies join directors on movies.director_id=directors.director_id; 
 /*query2*/
-select movies.title as movie, movies.release_year, directors.director_name from movies join directors on movies.director_id = directors.id;                                                                         select movies.title as movie, movies.release_year, directors.director_name from movies join directors on movies.director_id = directors.id;
+select movies.title as movie, movies.release_year, directors.director_name from movies join directors on movies.director_id = directors.id;                                                                         
 /*query3*/
 select directors.director_name,movies.title from directors left join movies on directors.director_id=movies.director_id;
 /*query4*/
