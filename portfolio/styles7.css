@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header styles */
+header {
+    background-color: #6c5ce7;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Hero styles */
+.hero {
+    background-color: #f3e8ff;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Education and Contact styles */
+.purple-pastel {
+    background-color: #d1c4e9;
+    padding: 40px;
+    color: #333;
+}
+
+/* Education Grid */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.education-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Coding Skills styles */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact styles */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+/* Hover effect */
+.education-item:hover,
+.skills-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Add more custom styles here based on your preferences */
+
